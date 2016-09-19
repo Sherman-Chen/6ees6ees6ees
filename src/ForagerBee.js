@@ -10,8 +10,7 @@ class ForagerBee extends Bee {
   	this.counter = 0;
   }
   forage (treasure) {
-  	this.treasureChest[this.counter] = treasure;
-  	this.counter++;
+  	this.treasureChest.push(treasure);
   }
 };
 
